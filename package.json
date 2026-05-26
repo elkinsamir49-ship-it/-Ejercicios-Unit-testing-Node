@@ -1,0 +1,18 @@
+{
+  "name": "unit-tests-workspace",
+  "version": "1.0.0",
+  "description": "Pruebas unitarias con Jest",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/__test__*/**/*.test.js",
+      "**/__test___*/**/*.test.js"
+    ]
+  }
+}
